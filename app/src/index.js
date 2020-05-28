@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Body from './components/body';
 
 ReactDOM.render(
 
-    <App />
+    <Body />
  ,
   document.getElementById('root')
 );

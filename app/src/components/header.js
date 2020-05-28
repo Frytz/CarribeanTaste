@@ -1,28 +1,22 @@
-import React, { useContext } from 'react';
-import {activeContContext} from '../contexts/activeContent';
+import React from 'react';
 
 
 export default function Header(props) {
 
 
 
-    const activeCont = useContext(activeContContext);
+
    
     return(
 
         <nav>
  
 
-            <img src={props.logoSRC} />
-            {activeCont.map( c => (
-          
-          <a src={c.linkRefs}>{c.linkTitle}</a>
-
-            
-      ))}
+<button key={props.pageTitle} >{props.pageTitle}</button>
 
 
+</nav>
 
-        </nav>
+
     )
 }

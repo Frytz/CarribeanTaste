@@ -1,33 +1,30 @@
-export const content = [
-
-{
-
-    links: [{
-       
-        logoSRC: "",
-        linkTitle:["Home", "Products", "Recipes", "About", "Contact", "FAQ", "Admin"],
+export const content = [ 
     
+    {
+
+    logo: [{
+        
+        logoSRC: ""    
     }],
-    
-      
-        pageTitle:"Home",
+},
+
+    {pageTitle:"Home",
         cont:[ {
 
-        intro: "",
-        featured: "",
-        testimonials: "",
-        tipOfTheDay: ""
+        intro: "Hello World",
+        featured: "Featuring",
+        testimonials: "Testimonials",
+        tipOfTheDay: "Tip of the day"
 
-            }],
-      
-      
-    pageTitle:  "Products", 
+            }]
+        },
+  {pageTitle:  "Products", 
     cont:[ {
 
 
-            }],
-
-    pageTitle: "Recipes", 
+            }]
+        },
+        { pageTitle: "Recipes", 
     cont: [{ 
 
         categories: [{
@@ -46,43 +43,34 @@ export const content = [
         available: true
 
                 }],
-}],
-    
-        pageTitle: "About", 
+}]
+        },
+        {pageTitle: "About", 
     cont: [{
 
 
-            }],
-
-
-
-    pageTitle: "Contact",
+            }]
+        },{pageTitle: "Contact",
     cont: [{
 
 
-            }],
-
-
-
-pageTitle:  "FAQ",
-
-    cont: [{
-
-
-            }],
-
-
-
-
-    pageTitle: "Admin",
+            }]
+        },{pageTitle:  "FAQ",
 
     cont: [{
 
 
             }]
+        },{pageTitle: "Admin",
+
+    cont: [{
 
 
-
+            }]
         }
+
+
+
+           
 ]
 
