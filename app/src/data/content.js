@@ -2,69 +2,87 @@ export const content = [
 
 {
 
-    links: {
-        linkTitle=["Home", "Products", "Recipes", "About", "Contact", "FAQ", "Admin"],
+    links: [{
+       
         logoSRC: "",
+        linkTitle:["Home", "Products", "Recipes", "About", "Contact", "FAQ", "Admin"],
+    
+    }],
+    
       
-       linkRefs: {
-        homeREF: "",
-        productsREF: "",
-        recipeREF: "",
-        aboutREF: "",
-        contactREF: "",
-        faqREF: "",
-        adminREF: "",
-    },
-
-
-    },
-
-    home: {
+        pageTitle:"Home",
+        cont:[ {
 
         intro: "",
         featured: "",
         testimonials: "",
         tipOfTheDay: ""
 
-    },
+            }],
+      
+      
+    pageTitle:  "Products", 
+    cont:[ {
 
-    about: {
 
+            }],
 
-    },
+    pageTitle: "Recipes", 
+    cont: [{ 
 
-    products: {
-
-        categories: {
+        categories: [{
 
             food: "Food",
             type: ["snacks", "produce", "bakery", "spices", "condiments", "meats", "seafood", "meals", "nuts", "rice", "dairy", "carribean", "african", "western", "beverages", "health", "deli", "misc"]
 
-        },
+                    }],
+  
+   setting: [{
+
+    
         asc_desc_toggle: true,
         alphatetical_toggle: true,
         rating: "",
         available: true
 
-    },
-
-    recipe: {
-
-
-    },
-
-    contact: {
+                }],
+}],
+    
+        pageTitle: "About", 
+    cont: [{
 
 
-    },
-
-    faq: {
-
-
-    },
+            }],
 
 
 
+    pageTitle: "Contact",
+    cont: [{
 
-}
+
+            }],
+
+
+
+pageTitle:  "FAQ",
+
+    cont: [{
+
+
+            }],
+
+
+
+
+    pageTitle: "Admin",
+
+    cont: [{
+
+
+            }]
+
+
+
+        }
 ]
+
