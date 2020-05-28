@@ -1,11 +1,30 @@
-const content = {
+export const content = [
+
+{
+
+    links: {
+        linkTitle=["Home", "Products", "Recipes", "About", "Contact", "FAQ", "Admin"],
+        logoSRC: "",
+      
+       linkRefs: {
+        homeREF: "",
+        productsREF: "",
+        recipeREF: "",
+        aboutREF: "",
+        contactREF: "",
+        faqREF: "",
+        adminREF: "",
+    },
+
+
+    },
 
     home: {
 
         intro: "",
         featured: "",
         testimonials: "",
-        tips: ""
+        tipOfTheDay: ""
 
     },
 
@@ -48,3 +67,4 @@ const content = {
 
 
 }
+]
