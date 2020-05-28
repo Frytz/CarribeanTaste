@@ -9,7 +9,7 @@ UI Design/Content
 	-Testimonials: Quotes from satisfied customers.
 	-Tip of the day	
 -Products
-	-Products categorized by: Alphabetical Order | Ascending/Descending Order | Food 	Type (Snacks, Produce, Bakery, Spices, Condiments, Meats/Seafood, Nuts, Rice, 	Dairy, Carribean, African, Western, Beverages, Availability, Sold Out, Health, Deli, 	Misc)
+	-Products categorized by: Alphabetical Order | Ascending/Descending Order | Food 	Type (Snacks, Produce, Bakery, Spices, Condiments, Meats/Seafood, Nuts, Rice, Meals, Dairy, Carribean, African, Western, Beverages, Availability, Sold Out, Health, Deli, 	Misc)
 
 -Recipe Guide
 	-Give tips on how to make delicious meals from each product.
