@@ -1,76 +1,33 @@
-export const content = [ 
-    
-    {
+export const content = {
 
-    logo: [{
-        
+    logo: {
         logoSRC: ""    
-    }],
-},
+    },
 
-    {pageTitle:"Home",
-        cont:[ {
+    pageTitle: ["Home", "Products", "Recipes", "About", "FAQ", "Contact", "Admin"],
 
-        intro: "Hello World",
+    cont: {
+
+        intro: "Welcome to the official Carrib Foods Website!",
         featured: "Featuring",
         testimonials: "Testimonials",
         tipOfTheDay: "Tip of the day"
 
-            }]
-        },
-  {pageTitle:  "Products", 
-    cont:[ {
-
-
-            }]
-        },
-        { pageTitle: "Recipes", 
-    cont: [{ 
-
-        categories: [{
+            },
+        
+  pageTitle:  "Products", 
+    
+         pageTitle: "Recipes", 
 
             food: "Food",
-            type: ["snacks", "produce", "bakery", "spices", "condiments", "meats", "seafood", "meals", "nuts", "rice", "dairy", "carribean", "african", "western", "beverages", "health", "deli", "misc"]
+            type: ["snacks", "produce", "bakery", "spices", "condiments", "meats", "seafood", "meals", "nuts", "rice", "dairy", "carribean", "african", "western", "beverages", "health", "deli", "misc"],
 
-                    }],
-  
-   setting: [{
-
-    
         asc_desc_toggle: true,
         alphatetical_toggle: true,
         rating: "",
-        available: true
+        available: true,
 
-                }],
-}]
-        },
-        {pageTitle: "About", 
-    cont: [{
-
-
-            }]
-        },{pageTitle: "Contact",
-    cont: [{
-
-
-            }]
-        },{pageTitle:  "FAQ",
-
-    cont: [{
-
-
-            }]
-        },{pageTitle: "Admin",
-
-    cont: [{
-
-
-            }]
-        }
-
-
-
-           
-]
+        
+   
+}
 
