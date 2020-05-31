@@ -11,7 +11,7 @@ export default function Home() {
 
     return(
 
-        <Route exact path="/home">
+        <Route exact path="/Home">
             <article>
         {ctContent.map(h => (
                 <h1>{h.intro}</h1>

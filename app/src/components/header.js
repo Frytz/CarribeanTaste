@@ -12,7 +12,7 @@ export default function Header(props) {
     return(
 
         <nav>
-{ ctContent.map(c =>  (
+{ ctContent.map((c) =>  (
 <Link class="w3-btn" key={c.pageTitle} to={c.pageTitle} >{c.pageTitle}</Link>
 ))}
 </nav>
