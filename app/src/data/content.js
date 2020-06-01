@@ -1,51 +1,71 @@
 export const content =[
+    
+     //Header
+     {logo:{
+        img: "",
+        alt: "Logo"    
+            }
+        },   
+
+{pageTitle: "Home"},
+{pageTitle: "Products"},
+{pageTitle: "Recipes"},
+{pageTitle: "About"},
+{pageTitle: "FAQ"},
+{pageTitle: "Contact"},
+{pageTitle: "Admin"},
    
-    {pageTitle: "Home "},
-    {pageTitle: "Products"},
-    {pageTitle: "Recipes"},
-    {pageTitle: "About"},
-    {pageTitle: "FAQ"},
-    {pageTitle: "Contact"},
-    {pageTitle: "Admin"},
-    {logo: {
-                img: "",
-                alt: "Logo"    
-            }},
-    {cont: {
-        home: {
-            intro: "Welcome to the official Carrib Foods Website!",
-            featured: "Featuring",
-            testimonials: "Testimonials",
-            tipOfTheDay: "Tip of the day"
-        },
-        products: {
-            food: "Food",
-            type: ["snacks", "produce", "bakery", "spices", "condiments", "meats", "seafood", "meals", "nuts", "rice", "dairy", "carribean", "african", "western", "beverages", "health", "deli", "misc"],
+    //Home
+    {intro: "Welcome to the official Carrib Foods Website!",
+    featured: "Featuring",
+    testimonials: "Testimonials",
+    tipOfTheDay: "Tip of the day",
+    },   
+               
+      
+     //Products  
+    {food: "Food",
+    type: ["snacks", "produce", "bakery", "spices", "condiments", "meats", "seafood", "meals", "nuts", "rice", "dairy", "carribean", "african", "western", "beverages", "health", "deli", "misc"],
+    snacks: [],
+    produce: [],
+    bakery: [],
+    spices: [],
+    condiments: [],
+    meats: [],
+    seafood: [],
+    meals: [],
+    nuts: [],
+    rice: [],
+    dairy: [],
+    carribean: [],
+    african: [],
+    western: [],
+    beverages: [],
+    health: [],
+    deli: [],
+    misc: []
+    },  
+      
+    {
 
-        },
-        recipes: {
+        recipes: [{
 
-        },
-        about: {
+            rec1: "",
+            rec2: "",
+            rec3: ""
 
-        },
-        faq: {
+        }],
 
-        },
-        contact: {
+    },
 
-        },
-        admin: {
+    //Admin Settings
+    {
 
-        }
-    }},
+       
+        isAvailable: true,
+        tagNew: "",
+        productNew: ""
 
-    {settings: {
-        asc_desc_toggle: true,
-        alphatetical_toggle: true,
-        rating: "",
-        available: true
 
-    }}
-
+    }
 ]
