@@ -67,5 +67,10 @@ export const content =[
         productNew: ""
 
 
+    },
+
+    //Produce Images
+    {
+
     }
 ]
