@@ -6,7 +6,8 @@ import 'w3-css/';
 
 ReactDOM.render(
 <Router>
-    <Body /> </Router>
+    <Body />
+     </Router>
  ,
   document.getElementById('root')
 );

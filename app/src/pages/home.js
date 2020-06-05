@@ -1,17 +1,14 @@
-import React, {useState} from 'react';
+import React, {useContext} from 'react';
+import {activeContContext} from '../contexts/activeContent';
 
-import {content} from '../data/content';
+export default function Home() {
 
-
-export default function Home(props) {
-
-    const [ctContent] = useState(content);
-
+    const cfData = useContext(activeContContext);
 
     return(
 <div>
 
-      {ctContent.map(c => ( <article>
+      {cfData.map(c => ( <article>
            <h1>{c.intro}</h1>
       <h2>{c.featured}</h2>
       <h2>{c.testimonials}</h2>

@@ -1,18 +1,16 @@
-import React, {useState} from 'react';
+import React, {useContext} from 'react';
 import {Link} from 'react-router-dom';
-import { content } from '../data/content';
+import {activeContContext} from '../contexts/activeContent';
 
 
 export default function Header(props) {
 
-    const [ctContent] = useState(content);
+    const cfData = useContext(activeContContext);
 
-
-   
     return(
 
         <nav>
-{ ctContent.map((c) =>  (
+{ cfData.map((c) =>  (
 <Link className="w3-btn" key={c.pageTitle} to={c.pageTitle} >{c.pageTitle}</Link>
 ))}
 </nav> 
