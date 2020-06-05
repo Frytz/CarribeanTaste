@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import {Route} from 'react-router-dom';
 
 import {content} from '../data/content';
 
@@ -11,7 +10,7 @@ export default function Home(props) {
 
     return(
 <div>
-<Route exact path="/Home"> 
+
       {ctContent.map(c => ( <article>
            <h1>{c.intro}</h1>
       <h2>{c.featured}</h2>
@@ -19,7 +18,7 @@ export default function Home(props) {
       <h2>{c.tipOfTheDay}</h2>
 </article>
       ))}
-</Route>
+
 
 </div>
 
